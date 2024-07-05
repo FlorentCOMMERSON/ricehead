@@ -1,5 +1,100 @@
-*{
+/* Main CSS file for 'La merveilleuse vie de l'homme riz' */
+
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #ffcc99;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #e60000;
+    text-shadow: 2px 2px #ffcc66;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav ul li:hover {
+    transform: rotate(-5deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Main Content */
+main {
+    margin-top: 20px;
+}
+
+article {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+article h2 {
+    font-size: 2em;
+    color: #008080;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #ffd700;
+}
+
+article p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border: 5px solid #ffcc99;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #ffcc99;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #333;
 }
