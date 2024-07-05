@@ -14,7 +14,7 @@
 
 <body>
 
-<?php echo "Bonjour !" ; ?>
+
     <header>
         <h1>L'amère vie de l'Homme poisson qui finira dans la poele</h1>
         <nav>
@@ -28,7 +28,7 @@
     <main>
         <article>
             <iframe width="1280" height="776" src="https://www.youtube.com/embed/vTLZRwYklZU" title="Man growing rice on his head . watch 😲" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: auto;"></iframe>
-            <h2>Introduction</h2>
+            <h2>Introduction<?php echo "Bonjour !" ; ?></h2>
             <p>Dans le cadre de la présente documentation, il est stipulé que l'individu en question s'est engagé dans une entreprise d'innovation écologique sans précédent. En défiant les conventions et les attentes sociétales, cet individu a pris la décision, pour le moins audacieuse, de cultiver du riz sur son propre crâne. Ce comportement excentrique et novateur ne constitue pas seulement une performance singulière, mais représente également une exploration des limites de la nature humaine et de son interaction symbiotique avec l'environnement naturel. Par ce geste à la fois simpliste et radical, l'individu invite à reconsidérer notre relation avec la nature et à envisager de nouvelles méthodes pour intégrer les pratiques agricoles dans notre quotidien.</p>
             <img src="hommeriz.png" alt="Homme avec une plantation de riz sur la tête">
         </article>
