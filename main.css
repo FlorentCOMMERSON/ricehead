@@ -1,6 +1,9 @@
-/* Style de base pour le corps du document */
+/* Style de base pour le corps du document avec une police d'écriture */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Spicy Rice','Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
     background-color: #f0f8ff;
     color: #333;
     line-height: 1.6;
