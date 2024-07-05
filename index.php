@@ -13,6 +13,8 @@
 </head>
 
 <body>
+
+<?php echo "Bonjour !" ; ?>
     <header>
         <h1>L'amère vie de l'Homme poisson</h1>
         <nav>
