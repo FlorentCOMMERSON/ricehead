@@ -47,6 +47,7 @@ nav ul li a {
 /* Articles principaux */
 main {
     padding: 20px;
+    margin : 0;
 }
 
 article {
