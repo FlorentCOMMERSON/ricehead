@@ -1,5 +1,78 @@
-*{
+/* Style de base pour le corps du document avec une police d'écriture */
+body {
+    font-family: 'Spicy Rice','Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* En-tête principal */
+header {
+    background-color: #e06b04;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Articles principaux */
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+article h2 {
+    color: #333;
+}
+
+/* Images dans les articles */
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pied de page */
+footer {
+    background-color: #e06b04;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
